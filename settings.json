@@ -1,0 +1,78 @@
+{
+    // === VSCode Settings ===
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "terminal.integrated.splitCwd": "initial",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "none",
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editorAssociations": [
+      // === Jupyter Settings ===
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    // === Git Settings ===
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    // === HTML Settings ===
+    "emmet.triggerExpansionOnTab": true,
+    // === Ruby Settings ===
+    "[ruby]": {
+      "editor.tabSize": 2,
+    },
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
+    "solargraph.bundlerPath": "/Users/sota/.rbenv/shims/solargraph",
+    "solargraph.useBundler": false,
+    "solargraph.definitions": true,
+    "solargraph.diagnostics": true,
+    "solargraph.autoformat": true,
+    "solargraph.formatting": true,
+    // === Go Settings ===
+    "[go]": {
+      "editor.tabSize": 4,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      },
+      "editor.snippetSuggestions": "none",
+    },
+    "[go.mod]": {
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true,
+      },
+    },
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.lintTool": "golangci-lint",
+    // === Python Settings ===
+    "[python]": {
+      "editor.tabSize": 4,
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": false,
+      "editor.formatOnType": false,
+      "editor.insertSpaces": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+      "DoNotTouchThisFolder"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--max-complexity","20"
+    ],
+  }
