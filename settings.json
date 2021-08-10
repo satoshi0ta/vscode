@@ -31,7 +31,7 @@
   "emmet.triggerExpansionOnTab": true,
   // === Ruby ===
   "[ruby]": {
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "ruby.intellisense": "rubyLocate",
   "ruby.useBundler": true,
@@ -49,20 +49,20 @@
     "editor.snippetSuggestions": "none",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-    },
+        "source.organizeImports": true
+    }
   },
   "[go.mod]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-    },
+        "source.organizeImports": true
+    }
   },
+  "go.autocompleteUnimportedPackages": true,
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
-  "go.autocompleteUnimportedPackages": true,
   "go.useCodeSnippetsOnFunctionSuggest": true,
-  "go.testEnvFile": "${workspaceFolder}/.env/server",
+  "go.testEnvFile": "${workspaceFolder}/.env/local",
   // === Python ===
   "[python]": {
     "editor.tabSize": 4,
@@ -72,7 +72,7 @@
     "editor.insertSpaces": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true
-    },
+    }
   },
   "python.languageServer": "Pylance",
   "python.analysis.extraPaths": [
@@ -91,5 +91,5 @@
     "yaml": false,
     "plaintext": true,
     "markdown": true
-  },
+  }
 }
