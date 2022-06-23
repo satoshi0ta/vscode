@@ -1,95 +1,88 @@
 {
-  // === VSCode ===
-  "editor.autoClosingBrackets": "always",
-  "editor.autoClosingQuotes": "always",
-  "editor.fontSize": 13,
-  "editor.inlineSuggest.enabled": true,
-  "editor.minimap.enabled": false,
-  "editor.suggestSelection": "first",
-  "editor.suggest.snippetsPreventQuickSuggestions": false,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true,
-  "terminal.integrated.splitCwd": "initial",
-  "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 0,
-  "workbench.activityBar.visible": true,
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "none",
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
-  // === IntelliCode ===
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  // === Git ===
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  // === YAML ===
-  "redhat.telemetry.enabled": false,
-  // === HTML ===
-  "emmet.triggerExpansionOnTab": true,
-  // === Ruby ===
-  "[ruby]": {
-    "editor.tabSize": 2
-  },
-  "ruby.intellisense": "rubyLocate",
-  "ruby.useBundler": true,
-  "ruby.useLanguageServer": true,
-  "solargraph.bundlerPath": "/Users/sota/.rbenv/shims/solargraph",
-  "solargraph.useBundler": true,
-  "solargraph.definitions": true,
-  "solargraph.diagnostics": true,
-  "solargraph.autoformat": true,
-  "solargraph.formatting": true,
-  // === Go ===
-  "[go]": {
+    // === Font ===
+    "debug.console.fontSize": 14,
+    "editor.fontSize": 15,
+    "scm.inputFontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    // === VSCode ===
+    "debug.internalConsoleOptions": "openOnSessionStart",
     "editor.autoClosingBrackets": "always",
-    "editor.tabSize": 4,
-    "editor.snippetSuggestions": "none",
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    }
-  },
-  "[go.mod]": {
-    "editor.formatOnSave": true,
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true
-    }
-  },
-  "go.autocompleteUnimportedPackages": true,
-  "go.toolsManagement.autoUpdate": true,
-  "go.useLanguageServer": true,
-  "go.useCodeSnippetsOnFunctionSuggest": true,
-  "go.testEnvFile": "${workspaceFolder}/.env/local",
-  // === Python ===
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "editor.formatOnType": false,
-    "editor.insertSpaces": true,
-    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-    }
-  },
-  "python.languageServer": "Pylance",
-  "python.analysis.extraPaths": [
-    "DoNotTouchThisFolder"
-  ],
-  "python.linting.pylintEnabled": false,
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": [
-      "--max-line-length=120",
-      "--max-complexity","20"
-  ],
-  // === Copilot ===
-  "github.copilot.autocomplete.enable": true,
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": true
-  }
+    "editor.autoClosingQuotes": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "solid",
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.splitCwd": "initial",
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#40404075",
+    },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.list.automaticKeyboardNavigation": false,
+    "workbench.startupEditor": "none",
+    // === vim ===
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "~/.vimrc",
+    "vim.whichwrap": "b,s,h,l,<,>,[,],~",
+    // === Git ===
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    // === YAML ===
+    "redhat.telemetry.enabled": false,
+    // === Ruby ===
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    // === Python ===
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    // === Go ===
+    "[go]": {
+        "editor.tabSize": 4,
+        "editor.snippetSuggestions": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[go.mod]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        	"source.organizeImports": true
+        }
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "go.toolsManagement.autoUpdate": true,
+    "go.useLanguageServer": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.coverOnSingleTestFile": true,
+    "go.coverShowCounts": true,
+    "go.testEnvFile": "${workspaceFolder}/.env/.env",
+    "go.enableCodeLens": {
+        "references": true
+    },
+    "gopls": {
+        "ui.documentation.linksInHover": false
+    },
 }
