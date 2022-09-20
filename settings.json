@@ -1,11 +1,12 @@
 {
-    // === Font ===
-    "debug.console.fontSize": 14,
+    // Font
+    "debug.console.fontSize": 15,
     "editor.fontSize": 15,
-    "scm.inputFontSize": 14,
-    "terminal.integrated.fontSize": 14,
-    // === VSCode ===
+    "scm.inputFontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    // VSCode
     "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.toolBarLocation": "docked",
     "editor.autoClosingBrackets": "always",
     "editor.autoClosingQuotes": "always",
     "editor.bracketPairColorization.enabled": true,
@@ -29,24 +30,23 @@
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.editor.untitled.hint": "hidden",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.list.automaticKeyboardNavigation": false,
     "workbench.startupEditor": "none",
-    // === vim ===
+    // vim
+    "vim.leader": "<Space>",
     "vim.useSystemClipboard": true,
     "vim.vimrc.enable": true,
-    "vim.vimrc.path": "~/.vimrc",
     "vim.whichwrap": "b,s,h,l,<,>,[,],~",
-    // === Git ===
+    // Git
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
-    // === YAML ===
+    // YAML
     "redhat.telemetry.enabled": false,
-    // === Ruby ===
+    // Ruby
     "[ruby]": {
         "editor.tabSize": 2
     },
-    // === Python ===
+    // Python
     "[python]": {
         "editor.tabSize": 4,
         "editor.formatOnSave": true,
@@ -57,7 +57,7 @@
             "source.organizeImports": true
         }
     },
-    // === Go ===
+    // Go
     "[go]": {
         "editor.tabSize": 4,
         "editor.snippetSuggestions": "none",
@@ -69,7 +69,7 @@
     "[go.mod]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-        	"source.organizeImports": true
+            "source.organizeImports": true
         }
     },
     "go.autocompleteUnimportedPackages": true,
@@ -78,11 +78,11 @@
     "go.useCodeSnippetsOnFunctionSuggest": true,
     "go.coverOnSingleTestFile": true,
     "go.coverShowCounts": true,
-    "go.testEnvFile": "${workspaceFolder}/.env/.env",
+    "go.testEnvFile": "${workspaceFolder}/.vscode/.env",
     "go.enableCodeLens": {
         "references": true
     },
     "gopls": {
         "ui.documentation.linksInHover": false
-    },
+    }
 }
